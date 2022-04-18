@@ -98,19 +98,38 @@ h2{
     grid-area: a;
     align-self: center;
     justify-self: stretch;
+    animation-name: giro_logo;
+    animation-iteration-count:infinite;
+    animation-duration: 2s;
+}
+@keyframes giro_logo{
+    0% {
+        opacity:0 
+    }
+    50% {
+        opacity: 50%;
+    }
+    100%{
+        opacity: 100;
+    }
 }
 .b{
     grid-area: b;
     justify-self: stretch;
     align-self: center;
 }
+.b:hover {
+    transform:scale(1.1)
+}
 .c {
     justify-self: stretch;
     align-self: center;
-    border: black 15px;
+    border: black 2px;
     margin: 0px;
     padding: 0px;
     grid-area: c;
+    background-image: linear-gradient(to left, blue, white);
+    
 }
 .d{
     grid-area: d;
