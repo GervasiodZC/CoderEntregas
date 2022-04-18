@@ -29,8 +29,9 @@ header {
 
 
 h1{
-    color: blue;
+    color: black;
     font-size: 2rem;
+    text-align: center;
 }
 h2{
     color: black;
@@ -92,7 +93,7 @@ h2{
     justify-content: center;
     align-content: center;
 }
-.a{
+.a{ 
     text-align: center;
     grid-area: a;
     align-self: center;
@@ -148,9 +149,7 @@ left: 400px;
         margin: 0px;
         padding: 0px;
         border: blue 5px;
-        background-color: black;
         
-    
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -167,7 +166,7 @@ left: 400px;
     margin: 0px;
     padding: 0px;
     border: blue 5px;
-    height: 1100px;
+   
 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -178,6 +177,61 @@ left: 400px;
     "j kl kl";
 }
 .hijo2{
-    background-color: blue;
+    background-color: greenyellow;
     border: 3px black
 }
+.gh {
+    grid-area: gh;
+    justify-self: center;
+    align-self: center;
+}
+.i {
+    grid-area: i;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+    background-color: grey;
+    padding: 10px;
+
+}
+.i:hover{
+    color:aqua;
+    transform: scale(1.2);
+}
+.j {
+    grid-area: j;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+.j:hover{
+    color: aqua;
+    transform: scale(1.2);
+}
+
+.kl {
+    grid-area: kl;
+    justify-self: center;
+    align-self: center;
+}
+@media only screen and (max-width: 768px){
+    .proyectosContenedor{
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        border: violet 5px;
+        height: 1100px;
+    
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0px;
+        grid-template-areas:
+        "i"
+        "gh"
+        "j"
+        "kl";
