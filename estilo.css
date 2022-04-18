@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left:0px;
+}
+.headercontacto {
+    background-color: black;
+    text-align:end;
+    background-image: url(./Imagenes/icon.png);
+    background-repeat: repeat-x;
+    background-size: 2rem;    
+    height: 17 rem;
+}
+header img{
+    width: 5rem;
+    margin:10px;
+    text-align: left;
+}
+header {
+    background-color: rgb(87, 201, 201);
+    text-align: left;
+    background-image: url(./Imagenes/icon.png);
+    background-repeat: repeat-x;
+    background-size: 2rem;    
+    height: 17 rem;
+}
+
+
+h1{
+    color: blue;
+    font-size: 2rem;
+}
+h2{
+    color: black;
+    font-size: 1,6rem;
+}
+.TituloMenu{
+    background-color:rgb(94, 94, 146);
+    border:black 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+.Menu{
+    list-style-type: none;
+    background-color:rgb(94, 94, 146);
+    border-radius: 60px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+.Menu li a{
+    text-decoration:none;
+    display: inline-block;
+}
+.Menu li:hover {
+    transform: scale(1.2);
+}
+
+.Menu li a:hover{
+    color:white;
+}
+
+.Contenedor{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: blue 5px;
+    height: 1100px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px;
+    grid-template-areas:
+    "a a"
+    "b c"
+    "d d";
+}
+.hijo{
+    justify-content: center;
+    align-content: center;
+}
+.a{
+    text-align: center;
+    grid-area: a;
+    align-self: center;
+    justify-self: stretch;
+}
+.b{
+    grid-area: b;
+    justify-self: stretch;
+    align-self: center;
+}
+.c {
+    justify-self: stretch;
+    align-self: center;
+    border: black 15px;
+    margin: 0px;
+    padding: 0px;
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+    justify-self: stretch;
+    align-self: center;
+}
+
+.redes{
+    list-style:circle;
+    font-style: italic;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.redes li{
+    display: inline-block;
+}
+
+form{
+    margin:10px
+}
+.Fotos{
+position: relative;
+left: 400px;
+}
+.Titulo{
+    text-align: center;
+ }    
+ 
+ @media only screen and (max-width: 768px){
+   
+    .Contenedor{
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        border: blue 5px;
+        background-color: black;
+        
+    
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0px;
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d";
+    }
+}
+.proyectosContenedor{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: blue 5px;
+    height: 1100px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+    grid-template-areas:
+    "gh gh i"
+    "j kl kl";
+}
+.hijo2{
+    background-color: blue;
+    border: 3px black
+}
