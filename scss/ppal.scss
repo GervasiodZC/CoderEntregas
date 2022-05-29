@@ -2,3 +2,43 @@
     color: aqua;
     transform: scale(1.2);
 }
+@mixin posicion ($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    color: aliceblue;
+}
+
+@media only screen and (max-width:425px) {
+    .TituloPpal {
+            font-size: 30px;
+            @include posicion(150px,0%);
+    }
+    .claim{
+        @include posicion(220px,15%);
+        font-size: 12px;
+        text-align: center
+    }    
+    }
+
+@media only screen and (max-width:1024px) {
+.TituloPpal {
+        font-size: 30px;
+        @include posicion(150px,15%);
+}
+.claim{
+    @include posicion(220px,25%);
+    font-size: 12px;
+    text-align: justify
+}    
+}
+
+@media only screen and (min-width:1024px) {
+.TituloPpal{
+    @include posicion(200px,50%)
+    }
+.claim{
+    @include posicion(300px,10%)
+}
+}
+
