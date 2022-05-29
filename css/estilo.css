@@ -1,0 +1,116 @@
+* {
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif; }
+
+.redes {
+  list-style: circle;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 20px; }
+
+.redes li {
+  display: inline-block; }
+
+* {
+  font-family: 'Ubuntu', sans-serif; }
+
+.AAAA:hover {
+  color: aqua;
+  transform: scale(1.2); }
+
+@media only screen and (max-width: 1024px) {
+  .TituloPpal {
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    color: aliceblue; }
+  .claim {
+    position: absolute;
+    top: 220px;
+    left: 10%;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify; } }
+
+@media only screen and (max-width: 760px) {
+  .TituloPpal {
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 22%;
+    color: aliceblue; }
+  .claim {
+    position: absolute;
+    top: 200px;
+    left: 9%;
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .TituloPpal {
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    color: aliceblue; }
+  .claim {
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    color: aliceblue; }
+  .BotonComienza {
+    position: absolute;
+    top: 420px;
+    left: 43%;
+    color: aliceblue; } }
+
+.BotonComienza {
+  border: solid;
+  margin: 5px;
+  padding: 10px;
+  background-color: #1d7667;
+  text-decoration: none;
+  align-items: center;
+  text-align: center; }
+  .BotonComienza .link {
+    text-decoration: none; }
+  .BotonComienza .link:visited {
+    color: aliceblue; }
+
+.BotonComienza:hover {
+  transform: scale(1.2); }
+
+.TituloProyectos {
+  text-align: center;
+  align-items: center;
+  color: #1d7667;
+  margin: 20px;
+  padding: 10px; }
+
+.TiposProy {
+  border: solid;
+  margin: 5px;
+  padding: 10px;
+  background-color: #1d7667;
+  text-decoration: none;
+  align-items: center;
+  text-align: center; }
+  .TiposProy .Tipos {
+    text-decoration: none; }
+  .TiposProy .Tipos:visited {
+    color: aliceblue; }
+
+.TiposProy:hover {
+  transform: scale(1.2); }
+
+p {
+  text-align: center;
+  align-items: center;
+  text-decoration: solid; }
+
+.FooterProy {
+  background-image: url(/Imagenes/foto-clientes-scaled.jpeg);
+  color: aliceblue; }

@@ -1,0 +1,37 @@
+.TituloProyectos{
+    text-align: center;
+    align-items: center;
+    color: rgb(29, 118, 103);
+    margin: 20px;
+    padding: 10px;
+}
+.TiposProy{
+    border: solid;       
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(29, 118, 103);
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+.Tipos {
+    text-decoration: none;
+
+}
+.Tipos:visited{
+    color: aliceblue;
+}
+}
+
+.TiposProy:hover{
+transform: scale(1.2);
+}
+
+p{
+    text-align: center;
+    align-items: center;
+    text-decoration: solid;
+}
+.FooterProy{
+    background-image: url(/Imagenes/foto-clientes-scaled.jpeg);
+    color: aliceblue;
+}

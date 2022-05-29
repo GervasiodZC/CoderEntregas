@@ -1,0 +1,68 @@
+.AAAA:hover{
+    color: aqua;
+    transform: scale(1.2);
+}
+@mixin posicion ($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width:1024px) {
+.TituloPpal {
+        font-size: 30px;
+        @include posicion(150px,10%);
+}
+.claim{
+    @include posicion(220px,10%);
+    font-size: 20px;
+    text-align: justify
+}    
+}
+@media only screen and (max-width:760px) {
+    .TituloPpal {
+            font-size: 20px;
+            @include posicion(150px,22%);
+    }
+    .claim{
+        @include posicion(200px,9%);
+        font-size: 12px;
+        text-align: center
+    }    
+    }
+
+@media only screen and (min-width:1024px) {
+.TituloPpal{
+    @include posicion(200px,30%)
+    }
+.claim{
+    @include posicion(300px,20%)
+
+}
+.BotonComienza{
+    @include posicion(420px,43%);
+} 
+}
+
+.BotonComienza{
+        border: solid;       
+        margin: 5px;
+        padding: 10px;
+        background-color: rgb(29, 118, 103);
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+    .link {
+        text-decoration: none;
+
+    }
+    .link:visited{
+        color: aliceblue;
+    }
+}
+
+.BotonComienza:hover{
+    transform: scale(1.2);
+}
