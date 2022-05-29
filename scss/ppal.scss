@@ -9,36 +9,59 @@
     color: aliceblue;
 }
 
-@media only screen and (max-width:425px) {
+
+@media only screen and (max-width:1024px) {
+.TituloPpal {
+        font-size: 30px;
+        @include posicion(150px,10%);
+}
+.claim{
+    @include posicion(220px,10%);
+    font-size: 20px;
+    text-align: justify
+}    
+}
+@media only screen and (max-width:760px) {
     .TituloPpal {
-            font-size: 30px;
-            @include posicion(150px,0%);
+            font-size: 20px;
+            @include posicion(150px,22%);
     }
     .claim{
-        @include posicion(220px,15%);
+        @include posicion(200px,9%);
         font-size: 12px;
         text-align: center
     }    
     }
 
-@media only screen and (max-width:1024px) {
-.TituloPpal {
-        font-size: 30px;
-        @include posicion(150px,15%);
-}
-.claim{
-    @include posicion(220px,25%);
-    font-size: 12px;
-    text-align: justify
-}    
-}
-
 @media only screen and (min-width:1024px) {
 .TituloPpal{
-    @include posicion(200px,50%)
+    @include posicion(200px,30%)
     }
 .claim{
-    @include posicion(300px,10%)
-}
-}
+    @include posicion(300px,20%)
 
+}
+.BotonComienza{
+    @include posicion(420px,43%);
+    border: solid;       
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(29, 118, 103);
+    text-decoration: none;
+    align-items: center;
+    margin-right: 100%;
+    text-align: center;
+   
+
+    .link {
+        text-decoration: none;
+
+    }
+    .link:visited{
+        color: aliceblue;
+    }
+}
+}
+.BotonComienza:hover{
+    transform: scale(1.2);
+}
