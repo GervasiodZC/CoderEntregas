@@ -9,9 +9,26 @@
     color: aliceblue;
 }
 
-    .ClaimSocial{
-        @include posicion(280px,32%)
-        }
+
+@media only screen and (max-width:1024px) {
+                .ClaimSocial{
+                @include posicion(250px,25%);
+                 }   
+                 }
+            @media only screen and (max-width:760px) {
+                .ClaimSocial{
+                    @include posicion(200px,18%);
+                    font-size: 18px;
+                    align-items: center;
+                    } 
+                }
+            
+            @media only screen and (min-width:1024px) {
+                .ClaimSocial{
+                    @include posicion(280px,32%)
+                    }
+                }
+
 
 .Error{
         border: solid;       
