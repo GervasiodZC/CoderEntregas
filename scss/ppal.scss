@@ -66,3 +66,6 @@
 .BotonComienza:hover{
     transform: scale(1.2);
 }
+.BotonError{
+    @extend .BotonComienza;
+}

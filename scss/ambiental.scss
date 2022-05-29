@@ -2,3 +2,34 @@
     font-family:'Ubuntu', sans-serif;
   
 }
+@mixin posicion ($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    color: aliceblue;
+}
+
+    .ClaimSocial{
+        @include posicion(280px,32%)
+        }
+
+.Error{
+        border: solid;       
+        margin: 5px;
+        padding: 10px;
+        background-color: rgb(29, 118, 103);
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+    .link {
+        text-decoration: none;
+
+    }
+    .link:visited{
+        color: aliceblue;
+    }
+}
+
+.Error:hover{
+    transform: scale(1.2);
+}

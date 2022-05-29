@@ -16,6 +16,28 @@
 * {
   font-family: 'Ubuntu', sans-serif; }
 
+.ClaimSocial {
+  position: absolute;
+  top: 280px;
+  left: 32%;
+  color: aliceblue; }
+
+.Error {
+  border: solid;
+  margin: 5px;
+  padding: 10px;
+  background-color: #1d7667;
+  text-decoration: none;
+  align-items: center;
+  text-align: center; }
+  .Error .link {
+    text-decoration: none; }
+  .Error .link:visited {
+    color: aliceblue; }
+
+.Error:hover {
+  transform: scale(1.2); }
+
 .AAAA:hover {
   color: aqua;
   transform: scale(1.2); }
@@ -61,13 +83,13 @@
     top: 300px;
     left: 20%;
     color: aliceblue; }
-  .BotonComienza {
+  .BotonComienza, .BotonError {
     position: absolute;
     top: 420px;
     left: 43%;
     color: aliceblue; } }
 
-.BotonComienza {
+.BotonComienza, .BotonError {
   border: solid;
   margin: 5px;
   padding: 10px;
@@ -75,12 +97,12 @@
   text-decoration: none;
   align-items: center;
   text-align: center; }
-  .BotonComienza .link {
+  .BotonComienza .link, .BotonError .link {
     text-decoration: none; }
-  .BotonComienza .link:visited {
+  .BotonComienza .link:visited, .BotonError .link:visited {
     color: aliceblue; }
 
-.BotonComienza:hover {
+.BotonComienza:hover, .BotonError:hover {
   transform: scale(1.2); }
 
 .TituloProyectos {
