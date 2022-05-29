@@ -1,1 +1,7 @@
-@import "ambiental"
+* {
+ padding: 5px;
+ font-family:'Ubuntu', sans-serif;
+}
+
+@import "ambiental";
+@import "ppal"
