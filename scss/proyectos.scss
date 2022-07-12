@@ -32,6 +32,14 @@ p{
     text-decoration: solid;
 }
 .FooterProy{
-    background-image: url(Imagenes/foto-clientes-scaled.jpeg);
-    color: aliceblue;
+    background-image: url(/Imagenes/foto-clientes-scaled.jpeg);
+    
+    .li{
+        color: aliceblue;
+    }
+    .TituloFooter{
+        color:aliceblue;
+        
+    }
+    
 }

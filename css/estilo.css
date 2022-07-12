@@ -157,5 +157,8 @@ p {
   text-decoration: solid; }
 
 .FooterProy {
-  background-image: url(Imagenes/foto-clientes-scaled.jpeg);
-  color: aliceblue; }
+  background-image: url(/Imagenes/foto-clientes-scaled.jpeg); }
+  .FooterProy .li {
+    color: aliceblue; }
+  .FooterProy .TituloFooter {
+    color: aliceblue; }
